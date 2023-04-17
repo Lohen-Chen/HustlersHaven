@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 30px;
+}
+
+#slot-machine {
+	margin-top: 50px;
+}
+
+.slot-container {
+	display: flex;
+	justify-content: center;
+}
+
+.slot {
+	background-image: url('https://dummyimage.com/100x100/000/fff&text=Slot');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+#spin-button {
+	margin-top: 50px;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#spin-button:hover {
+	background-color: #3E8E41;
+}

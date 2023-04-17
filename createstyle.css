@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#signin h2 {
+  margin: 0;
+}
+
+#signin {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border-top: 1px solid red;
+}
+
