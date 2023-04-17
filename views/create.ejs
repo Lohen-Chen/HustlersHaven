@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create An Account</title>
+  <link rel="stylesheet" href="/createstyle.css">
+</head>
+<body>
+  <div class="content">
+    <div>
+      <h1>Hustler's Haven</h1>
+      <div style="height: 3px; width: 100%; background-color: red;"></div>
+    </div>
+    <div id="signin">
+    <h2>Create an account</h2>
+      <span>Already have an account? <a href="/sign">Sign in!</a></span>
+    </div>
+    <p id="error" style="color: red;"><%= error %></p>
+    <div id="signinform">
+      <form action="/createsubmit" method="post" id="signform">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

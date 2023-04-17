@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="/signstyles.css">
+</head>
+<body>
+  <div class="outer-container">
+  <div class="image1">
+    <img src="/img/gambling.jpeg">
+  </div>
+  <div class="content">
+    <div>
+      <h1>Hustler's Haven</h1>
+      <div style="height: 3px; width: 100%; background-color: red;"></div>
+    </div>
+    <div id="signin">
+      <h2>Sign in</h2>
+      <span>Don't have an account? <a href="/create">Create one!</a></span>
+    </div>
+    <div id="form">
+    <p id="error" style="color: red;"><%= error %></p>
+    <form action="/signsubmit" method="post" id="signform">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RZHq5fQzGsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top: 5vh;"></iframe>
+  </div>
+  <div class="image1">
+    <img src="/img/gambling2.webp">
+  </div>
+  </div>
+
+</body>
+</html>
